@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28917.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTrainsLocal.Core", "MyTrainsLocal.Core\MyTrainsLocal.Core.csproj", "{58B3A933-C7AE-4429-9C7D-D49F133079DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyTrainsLocal.Core", "MyTrainsLocal.Core\MyTrainsLocal.Core.csproj", "{58B3A933-C7AE-4429-9C7D-D49F133079DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTrainsLocal.Droid", "MyTrainsLocal.Droid\MyTrainsLocal.Droid.csproj", "{0CBC24FB-8522-42FE-B1B1-3F455ED3E800}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,12 @@ Global
 		{58B3A933-C7AE-4429-9C7D-D49F133079DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58B3A933-C7AE-4429-9C7D-D49F133079DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58B3A933-C7AE-4429-9C7D-D49F133079DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CBC24FB-8522-42FE-B1B1-3F455ED3E800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CBC24FB-8522-42FE-B1B1-3F455ED3E800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CBC24FB-8522-42FE-B1B1-3F455ED3E800}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0CBC24FB-8522-42FE-B1B1-3F455ED3E800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CBC24FB-8522-42FE-B1B1-3F455ED3E800}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CBC24FB-8522-42FE-B1B1-3F455ED3E800}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

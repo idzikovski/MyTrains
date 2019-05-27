@@ -1,5 +1,5 @@
-﻿using MvvmCross.IoC;
-using MvvmCross.ViewModels;
+﻿using MvvmCross.Core.ViewModels;
+using MvvmCross.Platform.IoC;
 
 namespace MyTrainsLocal.Core
 {
