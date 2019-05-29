@@ -1,4 +1,5 @@
 ﻿using MvvmCross.Core.ViewModels;
+using MyTrainsLocal.Core.ViewModel;
 
 namespace MyTrainsLocal.Core
 {
@@ -6,7 +7,7 @@ namespace MyTrainsLocal.Core
     {
         public void Start(object hint = null)
         {
-            
+            ShowViewModel<MainViewModel>();
         }
     }
 }
